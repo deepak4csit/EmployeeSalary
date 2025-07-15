@@ -1,0 +1,11 @@
+a=1
+b=1
+i=1
+t=0
+print(a)
+while(i<10):
+    print(b)
+    t=b
+    b=a+b
+    a=t
+    i=i+1
